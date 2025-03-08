@@ -1,15 +1,13 @@
 import React from 'react'
 import './About.css'
-import theme_pattern from '../../assets/theme_pattern.SVG'
 import bobo from '../../assets/bobo.jpg'
 
 
 const About = () => {
   return (
-    <div className='about'>
+    <div id='about' className='about'>
         <div className="about-title">
             <h1>About me</h1>
-            <img src={theme_pattern} alt="" />
         </div>
       <div className='about-sections'>
         <div className="about-left">
@@ -33,7 +31,7 @@ const About = () => {
       <div className="about-achievements">
         <div className="about-achievement">
             <h1>2+</h1>
-            <p>Years</p>
+            <p>YEARS</p>
         </div>
         <hr/>
         <div className="about-achievement">
