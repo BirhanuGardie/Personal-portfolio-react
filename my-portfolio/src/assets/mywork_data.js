@@ -1,10 +1,7 @@
 import project1_img from '../assets/southwest.PNG'
 import project2_img from '../assets/evangadi-forum.PNG'
 import project3_img from '../assets/Amazon-clone.PNG'
-import project4_img from '../assets/project_4.svg'
-import project5_img from '../assets/project_5.svg'
-import project6_img from '../assets/project_6.svg'
-
+import project4_img from '../assets/Netflix-clone.PNG'
 const mywork_data = [
     {
         w_no:1,
@@ -26,16 +23,7 @@ const mywork_data = [
         w_name:"Web design",
         w_img:project4_img
     },
-    {
-        w_no:5,
-        w_name:"Web design",
-        w_img:project5_img
-    },
-    {
-        w_no:6,
-        w_name:"Web design",
-        w_img:project6_img
-    },
+   
 ]
  
 export default mywork_data;

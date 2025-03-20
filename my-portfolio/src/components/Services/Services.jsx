@@ -1,8 +1,6 @@
 import React from 'react'
 import './Services.css'
 import Services_Data from '../../assets/services_data'
-import arrow_icon from '../../assets/arrow_icon.SVG'
-
 const Services = () => {
   return (
     <div id='services' className='services'>
@@ -18,7 +16,6 @@ const Services = () => {
                     <p>{service.s_desc}</p>
                     <div className='services-readmore'>
                         <p>Read More</p>
-                        <img src={arrow_icon} alt="" />
                     </div>
                 </div>
             })}
